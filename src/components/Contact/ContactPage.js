@@ -30,7 +30,6 @@ function ContactPage() {
                     <h3 className="mb-5">Contact / Feedback</h3>
                     <form
                         name="paintingContact"
-                        method="POST"
                         netlify
                     >
                         <input type="hidden" name="form-name" value="paintingContact" />
