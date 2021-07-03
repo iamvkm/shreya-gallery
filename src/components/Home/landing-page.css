@@ -1,77 +1,120 @@
 .landingPage {
-    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.3)), url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    height: 100vh;
-    color: black;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100vh;
+  color: black;
+}
+
+.landingPage button {
+  margin-right: 5%;
+  height: 50px;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .landingQuote .upper-quote {
+    font-size: 75px;
+    font-weight: 800;
+  }
 
-    .landingQuote {
-        padding-top: 10%;
-    }
-
-    .landingQuote .upper-quote {
-        font-size: 75px;
-        font-weight: 800;
-    }
-    
-    .landingQuote .lower-quote {
-        margin: 8% 0%;
-        font-size: 25px;
-        font-weight: 500;
-    }
-
-    .landingPage button {
-        margin-right: 5%;
-        height: 50px;
-    }
+  .landingQuote .lower-quote {
+    margin: 8% 0%;
+    font-size: 25px;
+    font-weight: 500;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
-    .landingQuote p {
-        font-size: 65px;
-    }
+  .landingQuote {
+    padding-top: 8%;
+  }
 
-    .landingPage button {
-        margin: 11% 2% 11% 0%;
-    }
+  .landingQuote .upper-quote {
+    font-size: 75px;
+    font-weight: 750;
+  }
+
+  .landingQuote .lower-quote {
+    margin: 4% 0%;
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .landingPage button {
+    margin-right: 2%;
+    height: 50px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
-    .landingQuote p {
-        font-size: 75px;
-    }
+  .landingQuote {
+    padding-top: 8%;
+  }
 
-    .landingPage button {
-        margin: 5% 2% 0% 0%;
-    }
+  .landingQuote .upper-quote {
+    font-size: 90px;
+    font-weight: 700;
+  }
+
+  .landingQuote .lower-quote {
+    margin: 4% 0%;
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .landingPage button {
+    margin-right: 2%;
+    height: 50px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
-    .landingQuote p {
-        font-size: 75px;
-    }
+  .landingQuote {
+    padding-top: 8%;
+  }
 
-    .landingPage button {
-        margin: 5% 2% 0% 0%;
-    }
+  .landingQuote .upper-quote {
+    font-size: 90px;
+    font-weight: 700;
+  }
+
+  .landingQuote .lower-quote {
+    margin: 4% 0%;
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .landingPage button {
+    margin-right: 2%;
+    height: 50px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
-    .landingQuote p {
-        font-size: 85px;
-    }
+  .landingQuote {
+    padding-top: 8%;
+  }
 
-    .landingPage button {
-        margin: 5% 2% 0% 0%;
-    }
+  .landingQuote .upper-quote {
+    font-size: 95px;
+    font-weight: 700;
+  }
+
+  .landingQuote .lower-quote {
+    margin: 4% 0%;
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .landingPage button {
+    margin-right: 2%;
+    height: 50px;
+  }
 }
