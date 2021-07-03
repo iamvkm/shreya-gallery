@@ -13,9 +13,9 @@ function ShopPage(props) {
         return (
             <div className="item-card col-md-6 col-sm-12 col-xs-12 shadow" key={data.id}>
                 <h3 className="name">{data.name}</h3>
-                <img className="item-img" src={data.image} alt="" />
+                <img className="item-img shadow" src={data.image} alt="" />
                 <h1 className="price">₹{data.price}</h1>
-                <button id="liveToastBtn" className="btn btn-lg btn-warning" onClick={() => {
+                <button id="liveToastBtn" className="btn btn-lg btn-warning shadow" onClick={() => {
                     props.addToCart(data)
                     toast.dark(data.name + ' 🎨 added to Cart!', {
                         position: "top-center",
