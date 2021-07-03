@@ -33,7 +33,7 @@ function CartPage({ cart, updateQuantity }) {
             <div className="cart-wrapper shadow-sm">
                 <h4 key={itemInCart.id}>
                     <span>{itemInCart.quantity} {itemInCart.name} </span>
-                    <span className="price">(₹{itemInCart.price * itemInCart.quantity})</span>
+                    <span className="price">[ ₹{itemInCart.price * itemInCart.quantity} ]</span>
                     <a href="#" className="delete" onClick={(e) => updateQuantity(itemInCart.id, 0)}>❌</a>
                     <div className="quantity">
                         <button className="btn increase shadow-sm" onClick={(e) => updateQuantity(itemInCart.id, itemInCart.quantity, "increment")}>
