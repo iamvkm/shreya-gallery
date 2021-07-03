@@ -32,19 +32,19 @@ function ContactPage() {
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
                                     <label class="form-label" for="name">Name</label>
-                                    <input type="text" id="name" class="form-control" />
+                                    <input type="text" name="name" id="name" class="form-control" />
                                 </div>
                             </div>
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
                                     <label class="form-label" for="email">Email</label>
-                                    <input type="email" id="email" class="form-control" />
+                                    <input type="email" name="email" id="email" class="form-control" />
                                 </div>
                             </div>
                             <div className="col-md-12 col-sm-12">
                                 <div class="form-outline mb-4">
                                     <label class="form-label" for="message">Message</label>
-                                    <textarea id="message" class="form-control" />
+                                    <textarea name="message" id="message" class="form-control" />
                                 </div>
                             </div>
                         </div>
