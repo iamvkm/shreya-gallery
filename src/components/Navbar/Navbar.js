@@ -5,7 +5,7 @@ function Navbar() {
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <a className="navbar-brand mb-0 h1" href="/">✨ SHREYA'S GALLERY</a>
+                    <a className="navbar-brand mb-0 h1" href="/">Shreya's Gallery ✨</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttonToCollapseNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
