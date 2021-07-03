@@ -33,7 +33,7 @@ function ContactPage() {
                         method="POST"
                         netlify
                     >
-                        <input type="hidden" name="form-name" value="contact" />
+                        <input type="hidden" name="form-name" value="paintingContact" />
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
