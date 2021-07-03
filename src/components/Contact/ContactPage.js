@@ -2,13 +2,14 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import './contact-page.css'
 
+import { useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.min.css';
 
 function ContactPage() {
 
-    const showToast = () => {
-        return (
+    useEffect(() => {
+        if (window.location.search.includes('success=true')) {
             toast.dark('Message sent!', {
                 position: "top-center",
                 autoClose: 5000,
@@ -17,9 +18,9 @@ function ContactPage() {
                 pauseOnHover: true,
                 draggable: true,
                 progress: undefined,
-            })
-        )
-    }
+            });
+        }
+    }, []);
 
     return (
         <Fade>
@@ -27,7 +28,12 @@ function ContactPage() {
                 <div className="container">
                     <ToastContainer />
                     <h3 className="mb-5">Contact / Feedback</h3>
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form
+                        name="paintingContact"
+                        method="POST"
+                        netlify
+                    >
+                        <input type="hidden" name="form-name" value="contact" />
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
