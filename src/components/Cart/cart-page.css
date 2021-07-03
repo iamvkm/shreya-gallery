@@ -342,4 +342,8 @@
     width: 220px;
     font-size: 18px;
   }
+
+  .cart-page .sum-section {
+    margin-bottom: 10%;
+  }
 }
