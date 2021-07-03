@@ -37,10 +37,10 @@ function CartPage({ cart, updateQuantity }) {
                     <a href="#" className="delete" onClick={(e) => updateQuantity(itemInCart.id, 0)}>❌</a>
                     <div className="quantity">
                         <button className="btn increase shadow-sm" onClick={(e) => updateQuantity(itemInCart.id, itemInCart.quantity, "increment")}>
-                            Increase
+                            + Increase Quantity
                         </button>
                         <button className="btn decrease shadow-sm" onClick={(e) => updateQuantity(itemInCart.id, itemInCart.quantity, "decrement")}>
-                            Decrease
+                            - Decrease Quantity
                         </button>
                     </div>
                 </h4>
