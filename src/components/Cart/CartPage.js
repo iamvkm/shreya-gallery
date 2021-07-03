@@ -59,7 +59,7 @@ function CartPage({ cart, updateQuantity }) {
                             <p className="header">
                                 {itemsInCart === 0
                                     ? "Your Cart is Empty! 😶"
-                                    : `${itemsInCart} Painting${itemsInCart > 1 ? "s" : ""} in total! 😃`}
+                                    : `${itemsInCart} Painting${itemsInCart > 1 ? "s" : ""} in total 😃`}
                             </p>
                             {cart.map(item => {
                                 return (
