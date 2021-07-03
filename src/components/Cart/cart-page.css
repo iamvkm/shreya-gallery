@@ -1,7 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .cart-page {
-    padding-top: 6%;
+    padding: 6% 0%;
   }
 
   .cart-page .header {
@@ -54,7 +54,7 @@
     color: green;
     font-size: 30px;
     font-weight: 500;
-    margin: 6% 0%;
+    margin-bottom: 5%;
   }
 
   .cart-page .checkout {
@@ -124,7 +124,7 @@
     color: green;
     font-size: 30px;
     font-weight: 500;
-    margin: 6% 0%;
+    margin-bottom: 5%;
   }
 
   .cart-page .checkout {
@@ -194,7 +194,7 @@
     color: green;
     font-size: 30px;
     font-weight: 500;
-    margin: 6% 0%;
+    margin-bottom: 5%;
   }
 
   .cart-page .checkout {
@@ -264,7 +264,7 @@
     color: green;
     font-size: 30px;
     font-weight: 500;
-    margin: 6% 0%;
+    margin-bottom: 5%;
   }
 
   .cart-page .checkout {
@@ -334,7 +334,7 @@
     color: green;
     font-size: 30px;
     font-weight: 500;
-    margin: 6% 0%;
+    margin-bottom: 5%;
   }
 
   .cart-page .checkout {

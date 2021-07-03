@@ -1,3 +1,12 @@
 .about-page {
-    height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("./profile.jpg") top center no-repeat fixed;
+  height: 100vh;
+}
+
+.about-page .header {
+  color: black;
 }

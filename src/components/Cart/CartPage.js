@@ -55,7 +55,7 @@ function CartPage({ cart, updateQuantity }) {
             <div className="cart-page" style={itemsInCart ? {} : { height: '100vh' }}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-12 items-split">
+                        <div className="col-md-7 col-sm-12 items-split mb-5">
                             <p className="header">
                                 {itemsInCart === 0
                                     ? "Your Cart is Empty! 😶"

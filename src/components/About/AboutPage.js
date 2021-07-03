@@ -7,7 +7,15 @@ function AboutPage() {
         <Fade>
             <div className="about-page">
                 <div className="container">
-                    <h1 className="mt-5">About</h1>
+                    <h1 className="pt-5 header">About me?</h1>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <img src={'../images/profile.jpg'} alt="" />
+                        </div>
+                        <div className="col-md-8">
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </Fade>
