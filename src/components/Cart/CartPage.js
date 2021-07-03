@@ -30,7 +30,7 @@ function CartPage({ cart, updateQuantity }) {
         sumTotal += itemInCart.price * itemInCart.quantity
 
         return (
-            <div className="cart-wrapper shadow">
+            <div className="cart-wrapper shadow-sm">
                 <h4 key={itemInCart.id}>
                     <span>{itemInCart.quantity} {itemInCart.name} </span>
                     <span className="price">(₹{itemInCart.price * itemInCart.quantity})</span>
