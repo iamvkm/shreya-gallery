@@ -8,12 +8,12 @@ function ContactPage() {
             <div className="contact-page my-5">
                 <div className="container">
                     <h3>Contact / Feedback</h3>
-                    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-                        <input type="text" name="name" />
-                        <input type="email" name="email" />
-                        <textarea name="message"></textarea>
-                    </form>
-                    <form className="py-4" name="contact" method="POST">
+                    <form
+                        name="contact"
+                        method="POST"
+                        data-netlify="true"
+                        data-netlify-honeypot="bot-field"
+                    >
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
