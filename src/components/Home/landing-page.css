@@ -1,0 +1,87 @@
+.landingPage {
+    background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.3)), url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+}
+
+.landingQuote {
+    padding-top: 8%;
+}
+
+.landingQuote p {
+    font-size: 80px;
+    color: black;
+    font-weight: 800;
+}
+
+.landingQuote h1, h2 {
+    padding-top: 3%;
+}
+
+.landingPage button {
+    margin: 4% 2% 9% 0%;
+}
+
+.landingPage .home-anchor {
+    color: white;
+    text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .landingQuote p {
+        font-size: 65px;
+    }
+
+    .landingPage button {
+        margin: 11% 2% 11% 0%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+    .landingQuote p {
+        font-size: 65px;
+    }
+
+    .landingPage button {
+        margin: 11% 2% 11% 0%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+    .landingQuote p {
+        font-size: 75px;
+    }
+
+    .landingPage button {
+        margin: 5% 2% 0% 0%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    .landingQuote p {
+        font-size: 75px;
+    }
+
+    .landingPage button {
+        margin: 5% 2% 0% 0%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+    .landingQuote p {
+        font-size: 85px;
+    }
+
+    .landingPage button {
+        margin: 5% 2% 0% 0%;
+    }
+}

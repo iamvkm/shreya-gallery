@@ -1,0 +1,68 @@
+[
+    {
+        "id" : "000001",
+        "name" : "Vintage Art",
+        "image" : "../images/vintage-art.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000002",
+        "name" : "Broken Petals",
+        "image" : "../images/broken-petals.jpg",
+        "price" : "525"
+    },
+    {
+        "id" : "000003",
+        "name" : "Decorations",
+        "image" : "../images/decorations.jpg",
+        "price" : "450"
+    },
+    {
+        "id" : "000004",
+        "name" : "Happy Turtle",
+        "image" : "../images/happy-turtle.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000005",
+        "name" : "Lets Meet",
+        "image" : "../images/lets-meet.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000006",
+        "name" : "Not so bright",
+        "image" : "../images/not-so-bright.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000007",
+        "name" : "Safe Spot",
+        "image" : "../images/safe-spot.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000008",
+        "name" : "The Queen",
+        "image" : "../images/the-queen.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000009",
+        "name" : "The Thoughts",
+        "image" : "../images/the-thoughts.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000010",
+        "name" : "Wandering Car",
+        "image" : "../images/wandering-car.jpg",
+        "price" : "350"
+    },
+    {
+        "id" : "000011",
+        "name" : "Winter Is Coming",
+        "image" : "../images/winter-is-coming.jpg",
+        "price" : "350"
+    }
+]

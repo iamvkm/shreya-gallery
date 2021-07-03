@@ -1,0 +1,40 @@
+.shop-page {
+    background-color: #FAE5D3;
+    padding: 4% 0%;
+}
+
+.shop-page h3 {
+    font-weight: 700;
+}
+
+.shop-page .item-card {
+    border: 5px solid grey;
+    padding: 2% 3%;
+    width: 340px;
+    margin: 3%;
+}
+
+.shop-page .item-card:hover {
+    border: 5px solid green;
+    padding: 2% 3%;
+    width: 340px;
+    margin: 3%;
+}
+
+.shop-page .item-card .name {
+    font-weight: 700;
+    margin: 5% 0%;
+    color: red;
+}
+
+.shop-page .item-card .price {
+    font-weight: 700;
+    margin-top: 5%;
+    color: green;
+}
+
+.shop-page .item-card img {
+    border-radius: 5px;
+    width: 250px;
+    height: 300px;
+}
