@@ -33,7 +33,7 @@ function Footer() {
                     </div>
                 </div>
                 <h6 className="bottom-text">Shreya's Gallery &copy; 2021 <br/>
-                Designed & developed with ❤️ by <a href="https://www.linkedin.com/in/iamvkm" target=" ">Vivek Mishra</a></h6>
+                Made with ❤️ by <a href="https://www.linkedin.com/in/iamvkm" target=" ">Vivek Mishra</a></h6>
             </div>
         </div>
     )
