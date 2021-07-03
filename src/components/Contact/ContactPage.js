@@ -2,32 +2,31 @@ import React from 'react'
 import Fade from 'react-reveal/Fade'
 import './contact-page.css'
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.min.css';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.min.css';
 
 function ContactPage() {
 
-    const showToast = () => {
-        return (
-            toast.dark('Message sent!', {
-                position: "top-center",
-                autoClose: 5000,
-                hideProgressBar: false,
-                closeOnClick: true,
-                pauseOnHover: true,
-                draggable: true,
-                progress: undefined,
-            })
-        )
-    }
+    // const showToast = () => {
+    //     return (
+    //         toast.dark('Message sent!', {
+    //             position: "top-center",
+    //             autoClose: 5000,
+    //             hideProgressBar: false,
+    //             closeOnClick: true,
+    //             pauseOnHover: true,
+    //             draggable: true,
+    //             progress: undefined,
+    //         })
+    //     )
+    // }
 
     return (
         <Fade>
-            <div className="contact-page">
+            <div className="contact-page my-5">
                 <div className="container">
-                    <ToastContainer />
-                    <h3 className="mt-5">Contact / Feedback</h3>
-                    <form className="py-5" name="contact" method="POST" data-netlify="true" action={showToast}>
+                    <h3>Contact / Feedback</h3>
+                    <form className="py-4" name="contact" method="POST" data-netlify="true">
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
