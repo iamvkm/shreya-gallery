@@ -68,12 +68,14 @@ function CartPage({ cart, updateQuantity }) {
                                     </div>
                                 )
                             })}
-                            {itemsInCart > 0 && <div className="col-md-5 col-sm-12 sum-section">
-                                <h1 className="sum-head">Sum total : </h1>
-                                <h1 className="sum-total">₹{sumTotal}</h1>
-                                <button className="btn btn-warning" onClick={initiatePayment}>Proceed to checkout</button>
-                            </div>}
                         </div>
+                        {itemsInCart > 0 && <div className="col-md-5 col-sm-12 sum-section">
+                            <div className="sum-total">
+                                <span className="sum-head">Sum total : </span>
+                                <span>₹{sumTotal}</span>
+                            </div>
+                            <button className="btn btn-warning checkout" onClick={initiatePayment}>Proceed to checkout</button>
+                        </div>}
                     </div>
                 </div>
             </div>
