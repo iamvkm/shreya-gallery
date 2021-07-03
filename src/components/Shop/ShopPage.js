@@ -13,7 +13,7 @@ function ShopPage(props) {
         return (
             <div className="item-card col-md-6 col-sm-12 col-xs-12" key={data.id}>
                 <h3 className="name">{data.name}</h3>
-                <img src={data.image} alt="" />
+                <img className="item-img" src={data.image} alt="" />
                 <h1 className="price">₹{data.price}</h1>
                 <button id="liveToastBtn" className="btn btn-lg btn-dark" onClick={() => {
                     props.addToCart(data)

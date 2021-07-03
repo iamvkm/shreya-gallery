@@ -36,9 +36,10 @@
     color: green;
 }
 
-.shop-page .item-card img {
+.shop-page .item-card .item-img {
     border-radius: 5px;
     width: 250px;
     margin-bottom: 5%;
+    box-shadow: 0 0 10px #000;
     height: 300px;
 }
