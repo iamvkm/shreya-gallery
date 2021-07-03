@@ -27,13 +27,7 @@ function ContactPage() {
                 <div className="container">
                     <ToastContainer />
                     <h3 className="mb-5">Contact / Feedback</h3>
-                    <form
-                        name="contact"
-                        method="POST"
-                        data-netlify="true"
-                        data-netlify-honeypot="bot-field"
-                        onSubmit={showToast}
-                    >
+                    <form name="contact" netlify>
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
