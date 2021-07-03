@@ -1,45 +1,45 @@
 .shop-page {
-    background-color: #FAE5D3;
-    padding: 5% 0%;
-    text-align: center;
+  background-color: #fae5d3;
+  padding: 5% 0%;
+  text-align: center;
 }
 
 .shop-page p {
-    font-weight: 600;
-    font-size: 20px;
-    color: black;
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
 }
 
 .shop-page .item-card {
-    border: 5px solid grey;
-    padding: 6%;
-    width: 90%;
-    margin: 5%;
+  border: 5px solid grey;
+  padding: 6%;
+  width: 90%;
+  margin: 5%;
 }
 
 .shop-page .item-card:hover {
-    border: 5px solid green;
-    padding: 6%;
-    width: 90%;
-    margin: 5%;
+  border: 5px solid green;
+  padding: 6%;
+  width: 90%;
+  margin: 5%;
 }
 
 .shop-page .item-card .name {
-    font-weight: 700;
-    margin-bottom: 10%;
-    color: red;
+  font-weight: 700;
+  margin-bottom: 10%;
+  color: red;
 }
 
 .shop-page .item-card .price {
-    font-weight: 700;
-    margin-bottom: 8%;
-    color: green;
+  font-weight: 700;
+  margin-bottom: 8%;
+  color: green;
 }
 
 .shop-page .item-card .item-img {
-    border-radius: 5px;
-    width: 250px;
-    margin-bottom: 5%;
-    box-shadow: 0 0 10px #000;
-    height: 300px;
+  border-radius: 5px;
+  width: 250px;
+  margin-bottom: 5%;
+  box-shadow: 0 0 20px -5px rgba(0, 0, 0, 0.77);
+  height: 300px;
 }

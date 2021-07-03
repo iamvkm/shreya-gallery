@@ -30,7 +30,7 @@ function CartPage({ cart, updateQuantity }) {
         sumTotal += itemInCart.price * itemInCart.quantity
 
         return (
-            <div className="cart-wrapper">
+            <div className="cart-wrapper shadow">
                 <h4 key={itemInCart.id}>
                     <span>{itemInCart.quantity} {itemInCart.name} </span>
                     <span className="price">(₹{itemInCart.price * itemInCart.quantity})</span>
@@ -74,7 +74,7 @@ function CartPage({ cart, updateQuantity }) {
                                 <span className="sum-head">Sum total : </span>
                                 <span>₹{sumTotal}</span>
                             </div>
-                            <button className="btn btn-warning checkout" onClick={initiatePayment}>Proceed to checkout</button>
+                            <button className="btn btn-warning checkout shadow-sm" onClick={initiatePayment}>Proceed to checkout</button>
                         </div>}
                     </div>
                 </div>

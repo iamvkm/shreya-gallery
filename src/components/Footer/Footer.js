@@ -14,15 +14,15 @@ function Footer() {
                         <div className="col-6">
                             <h5>Quick Links</h5>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Store</a></li>
-                                <li><a href="#">My Cart</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/contact">Contact</a></li>
+                                <li><a href="/shop">Store</a></li>
+                                <li><a href="/cart">My Cart</a></li>
                             </ul>
                         </div>
                         <div className="col-6">
-                            <h5>Share</h5>
+                            <h5>Social Links</h5>
                             <ul>
                                 <li><a href="#">Facebook</a></li>
                                 <li><a href="#">Instagram</a></li>
@@ -32,8 +32,8 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <h6 className="bottom-text">Shreya's Gallery &copy; 2021 <br/>
-                Made with ❤️ by <a href="https://www.linkedin.com/in/iamvkm" target=" ">Vivek Mishra</a>.</h6>
+                <h6 className="bottom-text">Shreya's Gallery &copy; 2021 <br />
+                    Made with ❤️ by <a href="https://www.linkedin.com/in/iamvkm" target=" ">Vivek Mishra</a>.</h6>
             </div>
         </div>
     )
