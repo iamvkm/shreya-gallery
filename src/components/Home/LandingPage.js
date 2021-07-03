@@ -8,7 +8,7 @@ function LandingPage() {
             <div className="container">
                 <Fade cascade>
                     <div className="landingQuote">
-                        <p className="upper-quote">Every canvas is a journey all it's own 🎨</p>
+                        <p className="upper-quote">Every canvas is a journey all its own 🎨</p>
                         <p className="lower-quote">Come have a look at mine! 🖌️</p>
                     </div>
                 </Fade>
