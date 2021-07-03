@@ -13,8 +13,8 @@ function LandingPage() {
                     </div>
                 </Fade>
                 <Fade cascade>
-                    <button className="btn btn-dark"><a className="home-button" href="/shop">SEE MY WORK</a></button>
-                    <button className="btn btn-primary"><a className="home-button" href="/about">READ ABOUT ME</a></button>
+                    <button className="btn btn-danger"><a className="home-button" href="/shop">SEE MY WORK</a></button>
+                    <button className="btn btn-dark"><a className="home-button" href="/about">READ ABOUT ME</a></button>
                 </Fade>
             </div>
         </div>

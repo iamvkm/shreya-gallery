@@ -12,10 +12,10 @@ function ShopPage(props) {
     const RenderItem = ({ data }) => {
         return (
             <div className="item-card col-md-6 col-sm-12 col-xs-12" key={data.id}>
+                <h3 className="name">{data.name}</h3>
                 <img src={data.image} alt="" />
-                <h3 className="price">₹{data.price}</h3>
-                <h4 className="name">{data.name}</h4>
-                <button id="liveToastBtn" className="btn btn-dark" onClick={() => {
+                <h1 className="price">₹{data.price}</h1>
+                <button id="liveToastBtn" className="btn btn-lg btn-dark" onClick={() => {
                     props.addToCart(data)
                     toast.dark(data.name + ' 🎨 added to Cart!', {
                         position: "bottom-center",
