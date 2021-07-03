@@ -39,7 +39,7 @@ function ShopPage(props) {
                 <div className="container">
                     <div className="row">
                         <ToastContainer />
-                        <p>The earth without art is just eh! 🙃</p>
+                        <p>The Earth without Art is just Eh! 🙃</p>
                         {paintingsList}
                     </div>
                 </div>
