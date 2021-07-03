@@ -62,7 +62,7 @@ class ContactPage extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" value="submit" class="btn btn-primary" onClick={this.handleSubmit}>Submit</button>
                         </form>
                     </div>
                 </div>

@@ -52,7 +52,7 @@ function CartPage({ cart, updateQuantity }) {
 
     return (
         <Fade>
-            <div className="cart-page" style={itemsInCart ? {} : { height: '100vh' }}>
+            <div className="cart-page py-5" style={itemsInCart ? {} : { height: '100vh' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-sm-12 items-split mb-5">

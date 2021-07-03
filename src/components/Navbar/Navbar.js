@@ -1,11 +1,12 @@
 import React from 'react'
+import './navbar.css'
 
 function Navbar() {
     return (
         <div>
             <nav className="navbar shadow-sm navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
-                    <a className="navbar-brand mb-0 h1" href="/">Shreya's Gallery ⭐</a>
+                    <a className="navbar-brand mb-0 h1" href="/">Shreya's Gallery 😇</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#buttonToCollapseNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>

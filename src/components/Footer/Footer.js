@@ -3,12 +3,13 @@ import './footer.css'
 
 function Footer() {
     return (
-        <div className="footer py-4">
+        <div className="footer py-5">
             <div className="container">
                 <div className="row">
-                    <div className="footer-text">
-                        <h4>Thank you note</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <div className="footer-text mb-5">
+                        <h4>Thank you note:</h4>
+                        <p>Thank you sor visiting my site. Hope you liked what you saw. If you wish to have any personalized art made for you or your loved ones, please feel free to drop me a message <a href="/contact">here</a> or mail me directly at mail ID below. I'll contact you soon 🙂</p>
+                        <a style={{color: 'green'}} href={'mailto:contactshreyagallery@gmail.com'}>contactshreyagallery@gmail.com</a>
                     </div>
                     <div className="row">
                         <div className="col-6">
@@ -32,8 +33,7 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <h6 className="bottom-text">Shreya's Gallery &copy; 2021 <br />
-                    Made with ❤️ by <a href="https://www.linkedin.com/in/iamvkm" target=" ">Vivek Mishra</a>.</h6>
+                <h6 className="bottom-text mt-4">Shreya's Gallery &copy; 2021 <br /> Made with ❤️ by <a href="https://www.linkedin.com/in/iamvkm" target=" ">Vivek Mishra</a>.</h6>
             </div>
         </div>
     )

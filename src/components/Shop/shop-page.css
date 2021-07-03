@@ -1,6 +1,5 @@
 .shop-page {
   background-color: #fae5d3;
-  padding: 5% 0%;
   text-align: center;
 }
 
@@ -12,33 +11,54 @@
 
 .shop-page .item-card {
   border: 5px solid grey;
-  padding: 6%;
-  width: 90%;
-  margin: 5%;
 }
 
 .shop-page .item-card:hover {
   border: 5px solid green;
-  padding: 6%;
-  width: 90%;
-  margin: 5%;
 }
 
 .shop-page .item-card .name {
   font-weight: 700;
-  margin-bottom: 10%;
   color: red;
 }
 
 .shop-page .item-card .price {
   font-weight: 700;
-  margin-bottom: 8%;
   color: green;
 }
 
 .shop-page .item-card .item-img {
   border-radius: 5px;
   width: 250px;
-  margin-bottom: 5%;
   height: 300px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .shop-page .item-card {
+    width: 90%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .shop-page .item-card {
+    width: 43%;
+  }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .shop-page .item-card {
+    width: 45%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .shop-page .item-card {
+    width: 29%;
+  }
 }
