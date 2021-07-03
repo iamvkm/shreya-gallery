@@ -1,40 +1,30 @@
 .landingPage {
     background: linear-gradient(rgba(255,255,255,.8), rgba(255,255,255,.3)), url("https://images.pexels.com/photos/1053687/pexels-photo-1053687.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 100vh;
-}
-
-.landingQuote {
-    padding-top: 8%;
-}
-
-.landingQuote p {
-    font-size: 80px;
     color: black;
-    font-weight: 800;
-}
-
-.landingQuote h1, h2 {
-    padding-top: 3%;
-}
-
-.landingPage button {
-    margin: 4% 2% 9% 0%;
-}
-
-.landingPage .home-anchor {
-    color: white;
-    text-decoration: none;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-    .landingQuote p {
+    .landingQuote {
+        padding-top: 10%;
+    }
+
+    .landingQuote .upper-quote {
         font-size: 65px;
+        font-weight: 800;
+    }
+    
+    .landingQuote .lower-quote {
+        margin: 8% 0%;
+        font-size: 20px;
+        font-weight: 500;
     }
 
     .landingPage button {
-        margin: 11% 2% 11% 0%;
+        margin-right: 5%;
+        height: 50px;
     }
 }
 

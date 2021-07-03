@@ -11,14 +11,14 @@ function ShopPage(props) {
 
     const RenderItem = ({ data }) => {
         return (
-            <div className="item-card col-md-6" key={data.id}>
+            <div className="item-card col-md-6 col-sm-12 col-xs-12" key={data.id}>
                 <img src={data.image} alt="" />
                 <h3 className="price">₹{data.price}</h3>
                 <h4 className="name">{data.name}</h4>
                 <button id="liveToastBtn" className="btn btn-dark" onClick={() => {
                     props.addToCart(data)
                     toast.dark(data.name + ' 🎨 added to Cart!', {
-                        position: "bottom-right",
+                        position: "bottom-center",
                         autoClose: 5000,
                         hideProgressBar: false,
                         closeOnClick: true,
@@ -39,7 +39,7 @@ function ShopPage(props) {
                 <div className="container">
                     <div className="row">
                         <ToastContainer />
-                        <h3>The earth without art is just eh! 🙃</h3>
+                        <p>The earth without art is just eh! 🙃</p>
                         {paintingsList}
                     </div>
                 </div>

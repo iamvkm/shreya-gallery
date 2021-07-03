@@ -8,13 +8,13 @@ function LandingPage() {
             <div className="container">
                 <Fade cascade>
                     <div className="landingQuote">
-                        <p>EVERY CANVAS IS A JOURNEY ALL IT'S OWN 🎨</p>
-                        <h1>HAVE A LOOK AT MINE! 🖌️</h1>
+                        <p className="upper-quote">Every canvas is a journey all it's own 🎨</p>
+                        <p className="lower-quote">Come have a look at mine! 🖌️</p>
                     </div>
                 </Fade>
                 <Fade cascade>
-                    <button className="btn btn-dark"><a className="home-anchor" href="/shop">SEE MY WORK</a></button>
-                    <button className="btn btn-primary"><a className="home-anchor" href="/about">READ ABOUT ME</a></button>
+                    <button className="btn btn-dark"><a className="home-button" href="/shop">SEE MY WORK</a></button>
+                    <button className="btn btn-primary"><a className="home-button" href="/about">READ ABOUT ME</a></button>
                 </Fade>
             </div>
         </div>

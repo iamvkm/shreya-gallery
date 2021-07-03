@@ -36,11 +36,11 @@ function CartPage({ cart, updateQuantity }) {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-sm-12 items-split">
-                            <h3>
+                            <p className="header">
                                 {itemsInCart === 0
                                     ? "Your Cart is Empty!"
                                     : `${itemsInCart} painting${itemsInCart > 1 ? "s" : ""} in Total! 😃`}
-                            </h3>
+                            </p>
                             {cart.map(item => { return <div>{renderItem(item)}</div> })}
                         </div>
                         <div className="col-md-5 col-sm-12 sum-section">

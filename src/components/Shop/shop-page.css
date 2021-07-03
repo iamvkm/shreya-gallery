@@ -1,24 +1,27 @@
 .shop-page {
     background-color: #FAE5D3;
     padding: 4% 0%;
+    text-align: center;
 }
 
-.shop-page h3 {
-    font-weight: 700;
+.shop-page p {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
 }
 
 .shop-page .item-card {
     border: 5px solid grey;
-    padding: 2% 3%;
-    width: 340px;
-    margin: 3%;
+    padding: 8%;
+    width: 90%;
+    margin: 5%;
 }
 
 .shop-page .item-card:hover {
     border: 5px solid green;
-    padding: 2% 3%;
-    width: 340px;
-    margin: 3%;
+    padding: 8%;
+    width: 90%;
+    margin: 5%;
 }
 
 .shop-page .item-card .name {

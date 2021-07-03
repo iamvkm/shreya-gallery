@@ -3,8 +3,10 @@
     padding: 4% 0%;
 }
 
-.cart-page h3 {
+.cart-page .header {
     font-weight: 700;
+    font-size: 20px;
+    color: black;
     margin-bottom: 10%;
 }
 
