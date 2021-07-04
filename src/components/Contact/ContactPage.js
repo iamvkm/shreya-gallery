@@ -55,7 +55,7 @@ function ContactPage() {
         if (isValid) {
             try {
                 const res = await sendFormData(data)
-                if (res.status === 200) setStatus(STATUS.COMPLETED)
+                if (res.status === 404) setStatus(STATUS.COMPLETED)
                 else console.log(res)
 
             } catch (err) {
@@ -76,7 +76,13 @@ function ContactPage() {
 
     if (saveError) throw saveError
     if (status === STATUS.COMPLETED) {
-        return <h3 className="success mt-5 pt-5">Thanks! I will contact you soon!</h3>
+
+        return (
+            <div className="post-submit">
+                <h4 className="mt-5 pt-5 mb-4">Thanks! I will contact you soon! 🙂</h4>
+                <a href="/">Go back to home</a>
+            </div>
+        )
     }
 
     return (

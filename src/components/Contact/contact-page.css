@@ -7,8 +7,15 @@
   color: red;
 }
 
-.success {
+.post-submit {
   height: 100vh;
-  color: black;
   text-align: center;
+}
+
+.post-submit h4 {
+  color: black;
+}
+
+.post-submit a {
+  color: blue;
 }
