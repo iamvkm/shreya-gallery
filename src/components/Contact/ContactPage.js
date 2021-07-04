@@ -16,7 +16,8 @@ const STATUS = {
 const emptyData = {
     name: "",
     email: "",
-    message: ""
+    message: "",
+    subject: "New message for Gallery site!",
 }
 
 function ContactPage() {
