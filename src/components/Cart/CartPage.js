@@ -19,11 +19,12 @@ function CartPage({ cart, updateQuantity }) {
             amount: sumTotal,
         }
 
-        request.post('https://www.instamojo.com/api/1.1/payment-requests/', { form: payload, headers: headers }, function (error, response, body) {
-            if (!error && response.statusCode === 201) {
-                console.log(body);
-            }
-        })
+        request.post('https://www.test.instamojo.com/api/1.1/payment-requests/',
+            { form: payload, headers: headers }, function (error, response, body) {
+                if (!error && response.statusCode === 201) {
+                    console.log(body);
+                } else alert(error)
+            })
     }
 
     const renderItem = (itemInCart) => {
