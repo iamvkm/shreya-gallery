@@ -55,7 +55,7 @@ function ContactPage() {
         if (isValid) {
             try {
                 const res = await sendFormData(data)
-                if (res.status === 404) setStatus(STATUS.COMPLETED)
+                if (res.status === 200) setStatus(STATUS.COMPLETED)
                 else console.log(res)
 
             } catch (err) {
