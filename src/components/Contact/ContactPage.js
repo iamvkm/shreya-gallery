@@ -72,9 +72,9 @@ function ContactPage() {
     }
 
     if (saveError) throw saveError
-    if (status === STATUS.COMPLETED) {
-        return <h3 className="success mt-5 pt-5">Thanks! I will contact you soon!</h3>
-    }
+    // if (status === STATUS.COMPLETED) {
+    //     return <h3 className="success mt-5 pt-5">Thanks! I will contact you soon!</h3>
+    // }
 
     return (
         <Fade>
