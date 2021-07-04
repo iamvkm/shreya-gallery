@@ -53,7 +53,8 @@ function ContactPage() {
 
         if (isValid) {
             try {
-                await sendFormData(data)
+                const formRes = await sendFormData(data)
+                console.log(formRes)
                 setStatus(STATUS.COMPLETED)
             } catch (err) {
                 setSaveError(err)
