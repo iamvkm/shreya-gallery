@@ -72,9 +72,9 @@ function ContactPage() {
     }
 
     if (saveError) throw saveError
-    // if (status === STATUS.COMPLETED) {
-    //     return <h3 className="success mt-5 pt-5">Thanks! I will contact you soon!</h3>
-    // }
+    if (status === STATUS.COMPLETED) {
+        return <h3 className="success mt-5 pt-5">Thanks! I will contact you soon!</h3>
+    }
 
     return (
         <Fade>
@@ -94,7 +94,7 @@ function ContactPage() {
                         </div>
                     )}
 
-                    <form name="contact" className="mt-4" method="post" data-netlify="true" data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
+                    <form name="contact" className="mt-4" method="post" netlify data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
                         <input type="hidden" name="form-name" value="contact" />
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
