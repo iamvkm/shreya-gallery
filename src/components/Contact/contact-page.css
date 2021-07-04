@@ -1,3 +1,14 @@
 .contact-page {
   color: black;
 }
+
+.contact-page .alert {
+  text-align: right;
+  color: red;
+}
+
+.success {
+  height: 100vh;
+  color: black;
+  text-align: center;
+}
