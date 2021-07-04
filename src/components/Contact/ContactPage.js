@@ -96,8 +96,9 @@ function ContactPage() {
                         </div>
                     )}
 
-                    <form name="painting-contact" className="mt-4" method="POST" data-netlify-honeypot="bot-field" data-netlify="true" subject="New message for Gallery site!" onSubmit={handleSubmit}>
+                    <form name="painting-contact" className="mt-4" method="POST" data-netlify-honeypot="bot-field" data-netlify="true" onSubmit={handleSubmit}>
                         <input type="hidden" name="form-name" value="painting-contact" />
+                        <input type="hidden" id="subject" name="subject" value="New message for Gallery site!"></input>
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">
