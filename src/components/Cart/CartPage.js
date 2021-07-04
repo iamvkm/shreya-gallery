@@ -8,39 +8,13 @@ function CartPage({ cart, updateQuantity }) {
 
     const initiatePayment = () => {
 
-        var request = require('request');
-
-        var headers = {
-            'X-Api-Key': '3fd5b01a6593783b773e7f6e256ab105',
-            'X-Auth-Token': 'ba44eb540a5aa5e997b0c13757925704'
-        }
-
-        var payload = {
-            purpose: 'FIFA 16',
-            amount: '2500',
-            phone: '9999999999',
-            buyer_name: 'John Doe',
-            redirect_url: 'http://www.example.com/redirect/',
-            send_email: true,
-            webhook: 'http://www.example.com/webhook/',
-            send_sms: true,
-            email: 'foo@example.com',
-            allow_repeated_payments: false
-        }
-
-        request.post('https://www.instamojo.com/api/1.1/payment-requests/', { form: payload, headers: headers }, function (error, response, body) {
-            if (!error && response.statusCode == 201) {
-                console.log(body);
-            } else alert(error)
-        })
-
     }
 
     const renderItem = (itemInCart) => {
         sumTotal += itemInCart.price * itemInCart.quantity
 
         return (
-            <div className="cart-wrapper shadow-sm">
+            <div className="cart-wrapper shadow-sm mt-4">
                 <h4 key={itemInCart.id}>
                     <span>{itemInCart.quantity} {itemInCart.name} </span>
                     <span className="price">[ ₹{itemInCart.price * itemInCart.quantity} ]</span>
@@ -65,19 +39,13 @@ function CartPage({ cart, updateQuantity }) {
             <div className="cart-page py-5" style={itemsInCart ? {} : { height: '100vh' }}>
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-7 col-sm-12 items-split mb-5">
+                        <div className="col-md-7 col-sm-12 items-split mb-4">
                             <p className="header">
                                 {itemsInCart === 0
                                     ? "Your Cart is Empty! 😶"
                                     : `${itemsInCart} Painting${itemsInCart > 1 ? "s" : ""} in total 😃`}
                             </p>
-                            {cart.map(item => {
-                                return (
-                                    <div>
-                                        {renderItem(item)}
-                                    </div>
-                                )
-                            })}
+                            {cart.map(item => { return <div> {renderItem(item)} </div> })}
                         </div>
                         {itemsInCart > 0 && <div className="col-md-5 col-sm-12 sum-section">
                             <div className="sum-total">

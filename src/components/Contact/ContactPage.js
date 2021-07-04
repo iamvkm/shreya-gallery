@@ -135,7 +135,7 @@ function ContactPage() {
                                 </div>
                             </div>
                         </div>
-                        <input type="submit" value="Submit" className="btn btn-primary" disabled={status === STATUS.SUBMITTING} />
+                        <input type="submit" value="Submit" className="btn btn-warning" disabled={status === STATUS.SUBMITTING} />
                     </form>
                 </div>
             </div>
