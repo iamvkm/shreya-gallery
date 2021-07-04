@@ -10,7 +10,7 @@ export async function sendFormData(data) {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: encode({
             "form-name": "painting-contact",
-            "subject": "New message for Gallery site!",
+            'subject': "New message for Gallery site!",
             ...data
         })
     })
