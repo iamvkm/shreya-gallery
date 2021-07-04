@@ -53,8 +53,10 @@ function ContactPage() {
 
         if (isValid) {
             try {
-                await sendFormData(data)
-                setStatus(STATUS.COMPLETED)
+                const res = await sendFormData(data)
+                if (res.status === 200) setStatus(STATUS.COMPLETED)
+                else console.log(res)
+
             } catch (err) {
                 setSaveError(err)
             }
@@ -94,8 +96,8 @@ function ContactPage() {
                         </div>
                     )}
 
-                    <form name="contact" className="mt-4" method="post" netlify data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
-                        <input type="hidden" name="form-name" value="contact" />
+                    <form name="painting-contact" className="mt-4" method="POST" netlify data-netlify-honeypot="bot-field" onSubmit={handleSubmit}>
+                        <input type="hidden" name="form-name" value="painting-contact" />
                         <div className="row">
                             <div className="col-md-6 col-sm-12">
                                 <div class="form-outline mb-4">

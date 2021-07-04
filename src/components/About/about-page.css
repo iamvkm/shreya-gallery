@@ -3,7 +3,7 @@
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("./profile.jpg") top center no-repeat fixed;
+    url("./profile.jpg") top no-repeat;
   height: 100vh;
 }
 

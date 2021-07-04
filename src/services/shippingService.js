@@ -8,8 +8,6 @@ export async function sendFormData(data) {
     return fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...data })
+        body: encode({ "form-name": "painting-contact", ...data })
     })
-        .then(res => console.log(res))
-        .catch(error => alert(error))
 }
