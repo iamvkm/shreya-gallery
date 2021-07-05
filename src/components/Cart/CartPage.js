@@ -6,9 +6,7 @@ function CartPage({ cart, updateQuantity }) {
 
     var sumTotal = 0
 
-    const initiatePayment = () => {
-
-    }
+    const initiatePayment = () => {}
 
     const renderItem = (itemInCart) => {
         sumTotal += itemInCart.price * itemInCart.quantity
