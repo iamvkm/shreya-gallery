@@ -8,6 +8,7 @@ import CartPage from './components/Cart/CartPage'
 import ContactPage from './components/Contact/ContactPage'
 import LandingPage from './components/Home/LandingPage'
 import Footer from './components/Footer/Footer'
+import PaymentDialog from './components/Cart/PaymentDialog'
 
 function App() {
 
@@ -85,6 +86,7 @@ function App() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/shop" element={<ShopPage wishlist={wishlist} addToCart={addToCart} toggleWishlist={toggleWishlist} />} />
         <Route path="/cart" element={<CartPage cart={cart} updateQuantity={updateQuantity} />} />
+        <Route path="/payment" element={<PaymentDialog />} />
         <Route path="/" element={<LandingPage />} />
       </Routes>
       <Footer />

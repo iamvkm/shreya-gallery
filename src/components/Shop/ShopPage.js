@@ -12,9 +12,6 @@ function ShopPage(props) {
     const wishlist = props.wishlist.filter(i => i.exists)
     const [wishlisted, setWishlisted] = useState(false)
 
-    useEffect(() => {
-    }, [wishlisted])
-
     const showToast = (name) => {
         toast.dark(name + ' 🎨 added to Cart!', {
             position: "top-center",
@@ -51,7 +48,7 @@ function ShopPage(props) {
     const filteredItems = wishlisted ? wishlist : database
     const paintingsList = filteredItems.map(item => { return <RenderItem data={item} /> })
 
-    const renderEmptyList = <h4 className="empty-tag mt-5">No items in Wishlist! Really? 😞</h4>
+    const renderEmptyList = <h4 className="empty-tag mt-5">No item in Wishlist 😞</h4>
 
     return (
         <Fade>

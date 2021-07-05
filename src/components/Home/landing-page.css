@@ -8,9 +8,9 @@
   color: black;
 }
 
-.landingPage button {
-  margin-right: 5%;
-  height: 50px;
+.landingPage a {
+  text-decoration: none;
+  color: white;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -47,11 +47,6 @@
     font-size: 35px;
     font-weight: 500;
   }
-
-  .landingPage button {
-    margin-right: 2%;
-    height: 50px;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -69,11 +64,6 @@
     margin: 4% 0%;
     font-size: 35px;
     font-weight: 500;
-  }
-
-  .landingPage button {
-    margin-right: 2%;
-    height: 50px;
   }
 }
 
@@ -93,11 +83,6 @@
     font-size: 35px;
     font-weight: 500;
   }
-
-  .landingPage button {
-    margin-right: 2%;
-    height: 50px;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -115,10 +100,5 @@
     margin: 4% 0%;
     font-size: 35px;
     font-weight: 500;
-  }
-
-  .landingPage button {
-    margin-right: 2%;
-    height: 50px;
   }
 }

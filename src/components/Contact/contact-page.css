@@ -1,10 +1,10 @@
 .contact-page {
-  color: black;
+  color: #303030;
 }
 
 .contact-page .alert {
   text-align: right;
-  color: red;
+  color: #e74c3c;
 }
 
 .post-submit {
