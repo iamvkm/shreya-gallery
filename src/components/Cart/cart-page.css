@@ -1,349 +1,58 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .cart-page {
-    padding: 6% 0%;
-  }
-
-  .cart-page .header {
-    font-weight: 500;
-    font-size: 25px;
-    color: black;
-  }
-
-  .cart-page .cart-wrapper {
-    border: 5px solid grey;
-    padding: 3%;
-    width: 85%;
-    margin-top: 5%;
-  }
-
-  .cart-page .cart-wrapper h4 {
-    color: black;
-  }
-
-  .cart-page .cart-wrapper .price {
-    color: green;
-  }
-
-  .cart-page .cart-wrapper button {
-    font-size: 12px;
-    padding: 1% 5%;
-    margin-top: 5%;
-    margin-right: 2%;
-    height: 40px;
-    color: white;
-  }
-
-  .cart-page .cart-wrapper .increase {
-    background-color: green;
-  }
-
-  .cart-page .cart-wrapper .decrease {
-    background-color: red;
-  }
-
-  .cart-page .cart-wrapper .delete {
-    margin-left: 3%;
-  }
-
-  .cart-page .sum-head {
-    color: black;
-  }
-
-  .cart-page .sum-total {
-    color: green;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 5%;
-  }
-
-  .cart-page .checkout {
-    height: 50px;
-    width: 220px;
-    font-size: 18px;
-  }
-
-  .cart-page .sum-section {
-    margin-bottom: 10%;
-  }
+.cart-page .header {
+  font-weight: 500;
+  font-size: 25px;
+  color: #303030;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .cart-page {
-    padding-top: 6%;
-  }
-
-  .cart-page .header {
-    font-weight: 500;
-    font-size: 25px;
-    color: black;
-  }
-
-  .cart-page .cart-wrapper {
-    border: 5px solid grey;
-    padding: 3%;
-    width: 85%;
-    margin-top: 5%;
-  }
-
-  .cart-page .cart-wrapper h4 {
-    color: black;
-  }
-
-  .cart-page .cart-wrapper .price {
-    color: green;
-  }
-
-  .cart-page .cart-wrapper button {
-    font-size: 12px;
-    padding: 1% 5%;
-    margin-top: 5%;
-    margin-right: 2%;
-    height: 40px;
-    color: white;
-  }
-
-  .cart-page .cart-wrapper .increase {
-    background-color: green;
-  }
-
-  .cart-page .cart-wrapper .decrease {
-    background-color: red;
-  }
-
-  .cart-page .cart-wrapper .delete {
-    margin-left: 3%;
-  }
-
-  .cart-page .sum-head {
-    color: black;
-  }
-
-  .cart-page .sum-total {
-    color: green;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 5%;
-  }
-
-  .cart-page .checkout {
-    height: 50px;
-    width: 220px;
-    font-size: 18px;
-  }
-
-  .cart-page .sum-section {
-    margin-bottom: 10%;
-  }
+.cart-page .cart-wrapper {
+  border: 5px solid grey;
+  width: fit-content;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .cart-page {
-    padding-top: 6%;
-  }
-
-  .cart-page .header {
-    font-weight: 500;
-    font-size: 25px;
-    color: black;
-  }
-
-  .cart-page .cart-wrapper {
-    border: 5px solid grey;
-    padding: 3%;
-    width: 85%;
-    margin-top: 5%;
-  }
-
-  .cart-page .cart-wrapper h4 {
-    color: black;
-  }
-
-  .cart-page .cart-wrapper .price {
-    color: green;
-  }
-
-  .cart-page .cart-wrapper button {
-    font-size: 12px;
-    padding: 1% 5%;
-    margin-top: 5%;
-    margin-right: 2%;
-    height: 40px;
-    color: white;
-  }
-
-  .cart-page .cart-wrapper .increase {
-    background-color: green;
-  }
-
-  .cart-page .cart-wrapper .decrease {
-    background-color: red;
-  }
-
-  .cart-page .cart-wrapper .delete {
-    margin-left: 3%;
-  }
-
-  .cart-page .sum-head {
-    color: black;
-  }
-
-  .cart-page .sum-total {
-    color: green;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 5%;
-  }
-
-  .cart-page .checkout {
-    height: 50px;
-    width: 220px;
-    font-size: 18px;
-  }
-
-  .cart-page .sum-section {
-    margin-bottom: 10%;
-  }
+.cart-page .cart-wrapper h4 {
+  color: #303030;
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .cart-page {
-    padding-top: 6%;
-  }
-
-  .cart-page .header {
-    font-weight: 500;
-    font-size: 25px;
-    color: black;
-  }
-
-  .cart-page .cart-wrapper {
-    border: 5px solid grey;
-    padding: 3%;
-    width: 85%;
-    margin-top: 5%;
-  }
-
-  .cart-page .cart-wrapper h4 {
-    color: black;
-  }
-
-  .cart-page .cart-wrapper .price {
-    color: green;
-  }
-
-  .cart-page .cart-wrapper button {
-    font-size: 12px;
-    padding: 1% 5%;
-    margin-top: 5%;
-    margin-right: 2%;
-    height: 40px;
-    color: white;
-  }
-
-  .cart-page .cart-wrapper .increase {
-    background-color: green;
-  }
-
-  .cart-page .cart-wrapper .decrease {
-    background-color: red;
-  }
-
-  .cart-page .cart-wrapper .delete {
-    margin-left: 3%;
-  }
-
-  .cart-page .sum-head {
-    color: black;
-  }
-
-  .cart-page .sum-total {
-    color: green;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 5%;
-  }
-
-  .cart-page .checkout {
-    height: 50px;
-    width: 220px;
-    font-size: 18px;
-  }
-
-  .cart-page .sum-section {
-    margin-bottom: 10%;
-  }
+.cart-page .cart-wrapper .price {
+  color: #00bc8c;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .cart-page {
-    padding-top: 6%;
-  }
+.cart-page .delete {
+  text-decoration: none;
+}
 
-  .cart-page .header {
-    font-weight: 500;
-    font-size: 25px;
-    color: black;
-  }
+.cart-page .cart-wrapper button {
+  font-size: 13px;
+  height: 40px;
+}
 
-  .cart-page .cart-wrapper {
-    border: 5px solid grey;
-    padding: 3%;
-    width: 85%;
-    margin-top: 5%;
-  }
+.cart-page .cart-wrapper .increase {
+  background-color: #00bc8c;
+}
 
-  .cart-page .cart-wrapper h4 {
-    color: black;
-  }
+.cart-page .cart-wrapper .decrease {
+  background-color: #e74c3c;
+}
 
-  .cart-page .cart-wrapper .price {
-    color: green;
-  }
+.cart-page .sum-total {
+  font-size: 28px;
+  font-weight: 500;
+  color: #303030;
+}
 
-  .cart-page .cart-wrapper button {
-    font-size: 12px;
-    padding: 1% 5%;
-    margin-top: 5%;
-    margin-right: 2%;
-    height: 40px;
-    color: white;
-  }
+.cart-page .sum-head {
+  color: #00bc8c;
+  font-size: 28px;
+  font-weight: 500;
+}
 
-  .cart-page .cart-wrapper .increase {
-    background-color: green;
-  }
+.cart-page .checkout {
+  height: 50px;
+  width: 200px;
+  font-size: 16px;
+}
 
-  .cart-page .cart-wrapper .decrease {
-    background-color: red;
-  }
-
-  .cart-page .cart-wrapper .delete {
-    margin-left: 3%;
-  }
-
-  .cart-page .sum-head {
-    color: black;
-  }
-
-  .cart-page .sum-total {
-    color: green;
-    font-size: 30px;
-    font-weight: 500;
-    margin-bottom: 5%;
-  }
-
-  .cart-page .checkout {
-    height: 50px;
-    width: 220px;
-    font-size: 18px;
-  }
-
-  .cart-page .sum-section {
-    margin-bottom: 10%;
-  }
+.cart-page .checkout a {
+  text-decoration: none;
+  color: white;
 }

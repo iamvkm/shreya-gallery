@@ -94,7 +94,7 @@ function ContactPage() {
 
                     {!isValid && status === STATUS.SUBMITTED && (
                         <div role="alert">
-                            <p style={{ color: 'red' }}>Please fix the following errors: </p>
+                            <p style={{ color: '#e74c3c' }}>Please fix the following errors: </p>
                             <ul>
                                 {Object.keys(errors).map((key) => {
                                     return <li key={key}>{errors[key]}</li>

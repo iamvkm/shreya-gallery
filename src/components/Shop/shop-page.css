@@ -1,7 +1,7 @@
 .shop-page p {
   font-weight: 600;
   font-size: 20px;
-  color: black;
+  color: #303030;
 }
 
 .shop-page .item-card {
@@ -11,17 +11,17 @@
 }
 
 .shop-page .item-card:hover {
-  border: 5px solid green;
+  border: 5px solid #303030;
 }
 
 .shop-page .item-card .name {
   font-weight: 700;
-  color: red;
+  color: #e74c3c;
 }
 
 .shop-page .item-card .price {
   font-weight: 700;
-  color: green;
+  color: #00bc8c;
 }
 
 .shop-page .item-card .item-img {
@@ -31,6 +31,6 @@
 }
 
 .shop-page .empty-tag {
-  color: red;
+  color: #e74c3c;
   height: 100vh;
 }
