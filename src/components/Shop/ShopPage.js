@@ -9,8 +9,11 @@ import database from '../../database.json'
 
 function ShopPage(props) {
 
-    const wishlist = props.wishlist
+    const wishlist = props.wishlist.filter(i => i.exists)
     const [wishlisted, setWishlisted] = useState(false)
+
+    useEffect(() => {
+    }, [wishlisted])
 
     const showToast = (name) => {
         toast.dark(name + ' 🎨 added to Cart!', {
@@ -39,7 +42,7 @@ function ShopPage(props) {
 
                     <button className="btn btn-success shadow-sm me-2" onClick={() => {
                         props.toggleWishlist(data)
-                    }} >{wishlist.find(i => i.id === data.id && i.exists) ? 'Wishlist item ❤️' : 'Wishlist item 🤍'}</button>
+                    }} >{wishlist.find(i => i.id === data.id) ? 'Wishlist item ❤️' : 'Wishlist item 🤍'}</button>
                 </div>
             </div>
         )
@@ -52,7 +55,7 @@ function ShopPage(props) {
         <Fade>
             <div className="shop-page py-5">
                 <div className="container">
-                    <div className="row mx-5">
+                    <div className="row mx-1">
                         <ToastContainer />
                         <p>The Earth without Art is just Eh! 🙃</p>
                         <div class="form-check mx-3" style={{ color: 'black' }}>
