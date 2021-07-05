@@ -20,7 +20,19 @@ function App() {
     }
   })
 
-  useEffect(() => localStorage.setItem("cart", JSON.stringify(cart)), [cart])
+  const [wishlist, setWishlist] = useState(() => {
+    try {
+      return JSON.parse(localStorage.getItem("wishlist")) ?? []
+    } catch {
+      console.error("error")
+      return []
+    }
+  })
+
+  useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(cart), [cart])
+    localStorage.setItem("wishlist", JSON.stringify(wishlist), [wishlist])
+  })
 
   function addToCart(element) {
     setCart((items) => {
@@ -30,6 +42,17 @@ function App() {
           i.id === element.id ? { ...i, quantity: i.quantity + 1 } : i
         )
       } else return [...items, { id: element.id, name: element.name, price: element.price, quantity: 1 }]
+    })
+  }
+
+  function toggleWishlist(element) {
+    setWishlist((items) => {
+      const itemInWishlist = items.find((i) => i.id === element.id)
+      if (itemInWishlist) {
+        return items.map((i) =>
+          i.id === element.id ? { ...i, exists: !i.exists } : i
+        )
+      } else return [...items, { id: element.id, name: element.name, image: element.image, price: element.price, quantity: 1, exists: true }]
     })
   }
 
@@ -60,7 +83,7 @@ function App() {
       <Routes>
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/shop" element={<ShopPage addToCart={addToCart} />} />
+        <Route path="/shop" element={<ShopPage wishlist={wishlist} addToCart={addToCart} toggleWishlist={toggleWishlist} />} />
         <Route path="/cart" element={<CartPage cart={cart} updateQuantity={updateQuantity} />} />
         <Route path="/" element={<LandingPage />} />
       </Routes>

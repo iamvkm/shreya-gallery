@@ -1,8 +1,3 @@
-.shop-page {
-  background-color: #fae5d3;
-  text-align: center;
-}
-
 .shop-page p {
   font-weight: 600;
   font-size: 20px;
@@ -11,6 +6,8 @@
 
 .shop-page .item-card {
   border: 5px solid grey;
+  width: fit-content;
+  margin: auto;
 }
 
 .shop-page .item-card:hover {
@@ -31,34 +28,4 @@
   border-radius: 5px;
   width: 250px;
   height: 300px;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .shop-page .item-card {
-    width: 90%;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .shop-page .item-card {
-    width: 43%;
-  }}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .shop-page .item-card {
-    width: 45%;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .shop-page .item-card {
-    width: 29%;
-  }
 }
