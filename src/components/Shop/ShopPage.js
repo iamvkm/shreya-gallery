@@ -51,7 +51,7 @@ function ShopPage(props) {
     const filteredItems = wishlisted ? wishlist : database
     const paintingsList = filteredItems.map(item => { return <RenderItem data={item} /> })
 
-    const renderEmptyList = <h4 className="empty-tag mt-5">No items in Wishlist? Really? 😞</h4>
+    const renderEmptyList = <h4 className="empty-tag mt-5">No items in Wishlist! Really? 😞</h4>
 
     return (
         <Fade>
