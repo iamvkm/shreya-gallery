@@ -30,7 +30,7 @@ function ShopPage(props) {
     const RenderItem = ({ data }) => {
 
         return (
-            <div className="item-card col-md-4 shadow p-4 mt-4" key={data.id}>
+            <div className="item-card col-md-4 shadow p-4 mt-5" key={data.id}>
                 <h1 className="price mt-1 mb-2">₹{data.price}</h1>
                 <h3 className="name mb-3">{data.name}</h3>
                 <img className="item-img shadow-sm mb-2" src={data.image} alt="" />
@@ -51,6 +51,8 @@ function ShopPage(props) {
     const filteredItems = wishlisted ? wishlist : database
     const paintingsList = filteredItems.map(item => { return <RenderItem data={item} /> })
 
+    const renderEmptyList = <h4 className="empty-tag mt-5">No items in Wishlist? Really? 😞</h4>
+
     return (
         <Fade>
             <div className="shop-page py-5">
@@ -61,10 +63,10 @@ function ShopPage(props) {
                         <div class="form-check mx-3" style={{ color: 'black' }}>
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked={wishlisted} onChange={e => setWishlisted(e.target.checked)} />
                             <label class="form-check-label" htmlFor="flexCheckDefault">
-                                Show only my wishlist items
+                                Show only wishlist items
                             </label>
                         </div>
-                        {paintingsList}
+                        {wishlisted && !wishlist.length ? renderEmptyList : paintingsList}
                     </div>
                 </div>
             </div>

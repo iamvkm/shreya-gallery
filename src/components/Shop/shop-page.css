@@ -29,3 +29,7 @@
   width: 250px;
   height: 300px;
 }
+
+.shop-page .empty-tag {
+  color: red;
+}
