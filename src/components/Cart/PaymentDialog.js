@@ -1,8 +1,9 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 
 function PaymentDialog() {
     return (
-        <div>
+        <Fade>
             <div style={{ height: '100vh', textAlign: 'center' }}>
 
                 <h4 style={{
@@ -15,7 +16,7 @@ function PaymentDialog() {
                 <h5 style={{ color: '#303030', fontWeight: '700' }}>Apologies for the inconvenience 🙏</h5>
                 <a style={{ textDecoration: 'none' }} href="/">Go back to home</a>
             </div >
-        </div>
+        </Fade>
     )
 }
 
